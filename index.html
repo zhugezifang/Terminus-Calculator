@@ -52,7 +52,7 @@
         </button>
       </div>
       <div class="hidden lg:flex lg:gap-x-12">
-        <a href="chromakopia-name-generator" class="text-sm font-semibold leading-6 text-white ">Chromakopia Name Generator</a></div>
+      </div>
       <div class="flex flex-1 justify-end mr-2">
         <a href="https://ko-fi.com/zhugezifang" target="_blank" class="text-gray-500 hover:text-gray-400">
           <span class="sr-only">Buy me a coffee</span>
@@ -67,9 +67,6 @@
 
     <!-- Start block -->
     <section class="bg-white">
-
-        
-
 
         <div class="max-w-screen-xl px-4 pt-20 pb-6 mx-auto lg:gap-8 xl:gap-0 lg:py-6 lg:pt-28">
             <div class="bg-white-100 py-6 sm:px-6 px-4 rounded-3xl">
@@ -96,40 +93,88 @@
 
             <div class="max-w-3xl mx-auto p-6 bg-gray-100 shadow-md mt-6 rounded-lg">                
                 
-                <div class="image-generator-section">
-                    <div>
-                        <input type="text" id="wordInput" placeholder="Enter the text you want">
-                    </div>
-                    <div>
-                        <label for="textColorInput">Text Color:</label>
-                        <input type="color" id="textColorInput" value="#000000">
-                        <label for="defaultTextColor">
-                            <input type="checkbox" id="defaultTextColor">
-                            Chromakopia Green
-                        </label>
-                    </div>
-                    <div>
-                        <label for="bgColorInput">Background Color:</label>
-                        <input type="color" id="bgColorInput" value="#01823f">
-                        <input type="checkbox" id="bgTransparent">
-                        <label for="bgTransparent">Transparent Background</label>
-                    </div>
-                    <div>
-                        <label for="bgImageInput" class="custom-file-upload">Upload Background Image:</label>
-                        <button type="button" class="upload-btn">Choose File</button>
-                        <input type="file" id="bgImageInput" accept="image/*" style="display:none;">
-                    </div>
-                    <div>
-                        <button class="bg-blue-500 text-white font-bold py-2 px-4 rounded" id="downloadButton">
-                            Download
-                        </button>
-                          
-                    </div>
-                    <div>
-                        <canvas id="wordCanvas" style="display:none;" height="350" width="350"></canvas>
-                        <img id="generatedImage" alt="Chromakopia Font" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAV4AAAFeCAYAAADNK3caAAAAAXNSR0IArs4c6QAACxJJREFUeF7t1MEJACAMBEFTmb3ZuIJF7GvSwMEQdubsuxwBAgQIZAIjvJm1IQIECHwB4fUIBAgQiAWENwY3R4AAAeH1AwQIEIgFhDcGN0eAAAHh9QMECBCIBYQ3BjdHgAAB4fUDBAgQiAWENwY3R4AAAeH1AwQIEIgFhDcGN0eAAAHh9QMECBCIBYQ3BjdHgAAB4fUDBAgQiAWENwY3R4AAAeH1AwQIEIgFhDcGN0eAAAHh9QMECBCIBYQ3BjdHgAAB4fUDBAgQiAWENwY3R4AAAeH1AwQIEIgFhDcGN0eAAAHh9QMECBCIBYQ3BjdHgAAB4fUDBAgQiAWENwY3R4AAAeH1AwQIEIgFhDcGN0eAAAHh9QMECBCIBYQ3BjdHgAAB4fUDBAgQiAWENwY3R4AAAeH1AwQIEIgFhDcGN0eAAAHh9QMECBCIBYQ3BjdHgAAB4fUDBAgQiAWENwY3R4AAAeH1AwQIEIgFhDcGN0eAAAHh9QMECBCIBYQ3BjdHgAAB4fUDBAgQiAWENwY3R4AAAeH1AwQIEIgFhDcGN0eAAAHh9QMECBCIBYQ3BjdHgAAB4fUDBAgQiAWENwY3R4AAAeH1AwQIEIgFhDcGN0eAAAHh9QMECBCIBYQ3BjdHgAAB4fUDBAgQiAWENwY3R4AAAeH1AwQIEIgFhDcGN0eAAAHh9QMECBCIBYQ3BjdHgAAB4fUDBAgQiAWENwY3R4AAAeH1AwQIEIgFhDcGN0eAAAHh9QMECBCIBYQ3BjdHgAAB4fUDBAgQiAWENwY3R4AAAeH1AwQIEIgFhDcGN0eAAAHh9QMECBCIBYQ3BjdHgAAB4fUDBAgQiAWENwY3R4AAAeH1AwQIEIgFhDcGN0eAAAHh9QMECBCIBYQ3BjdHgAAB4fUDBAgQiAWENwY3R4AAAeH1AwQIEIgFhDcGN0eAAAHh9QMECBCIBYQ3BjdHgAAB4fUDBAgQiAWENwY3R4AAAeH1AwQIEIgFhDcGN0eAAAHh9QMECBCIBYQ3BjdHgAAB4fUDBAgQiAWENwY3R4AAAeH1AwQIEIgFhDcGN0eAAAHh9QMECBCIBYQ3BjdHgAAB4fUDBAgQiAWENwY3R4AAAeH1AwQIEIgFhDcGN0eAAAHh9QMECBCIBYQ3BjdHgAAB4fUDBAgQiAWENwY3R4AAAeH1AwQIEIgFhDcGN0eAAAHh9QMECBCIBYQ3BjdHgAAB4fUDBAgQiAWENwY3R4AAAeH1AwQIEIgFhDcGN0eAAAHh9QMECBCIBYQ3BjdHgAAB4fUDBAgQiAWENwY3R4AAAeH1AwQIEIgFhDcGN0eAAAHh9QMECBCIBYQ3BjdHgAAB4fUDBAgQiAWENwY3R4AAAeH1AwQIEIgFhDcGN0eAAAHh9QMECBCIBYQ3BjdHgAAB4fUDBAgQiAWENwY3R4AAAeH1AwQIEIgFhDcGN0eAAAHh9QMECBCIBYQ3BjdHgAAB4fUDBAgQiAWENwY3R4AAAeH1AwQIEIgFhDcGN0eAAAHh9QMECBCIBYQ3BjdHgAAB4fUDBAgQiAWENwY3R4AAAeH1AwQIEIgFhDcGN0eAAAHh9QMECBCIBYQ3BjdHgAAB4fUDBAgQiAWENwY3R4AAAeH1AwQIEIgFhDcGN0eAAAHh9QMECBCIBYQ3BjdHgAAB4fUDBAgQiAWENwY3R4AAAeH1AwQIEIgFhDcGN0eAAAHh9QMECBCIBYQ3BjdHgAAB4fUDBAgQiAWENwY3R4AAAeH1AwQIEIgFhDcGN0eAAAHh9QMECBCIBYQ3BjdHgAAB4fUDBAgQiAWENwY3R4AAAeH1AwQIEIgFhDcGN0eAAAHh9QMECBCIBYQ3BjdHgAAB4fUDBAgQiAWENwY3R4AAAeH1AwQIEIgFhDcGN0eAAAHh9QMECBCIBYQ3BjdHgAAB4fUDBAgQiAWENwY3R4AAAeH1AwQIEIgFhDcGN0eAAAHh9QMECBCIBYQ3BjdHgAAB4fUDBAgQiAWENwY3R4AAAeH1AwQIEIgFhDcGN0eAAAHh9QMECBCIBYQ3BjdHgAAB4fUDBAgQiAWENwY3R4AAAeH1AwQIEIgFhDcGN0eAAAHh9QMECBCIBYQ3BjdHgAAB4fUDBAgQiAWENwY3R4AAAeH1AwQIEIgFhDcGN0eAAAHh9QMECBCIBYQ3BjdHgAAB4fUDBAgQiAWENwY3R4AAAeH1AwQIEIgFhDcGN0eAAAHh9QMECBCIBYQ3BjdHgAAB4fUDBAgQiAWENwY3R4AAAeH1AwQIEIgFhDcGN0eAAAHh9QMECBCIBYQ3BjdHgAAB4fUDBAgQiAWENwY3R4AAAeH1AwQIEIgFhDcGN0eAAAHh9QMECBCIBYQ3BjdHgAAB4fUDBAgQiAWENwY3R4AAAeH1AwQIEIgFhDcGN0eAAAHh9QMECBCIBYQ3BjdHgAAB4fUDBAgQiAWENwY3R4AAAeH1AwQIEIgFhDcGN0eAAAHh9QMECBCIBYQ3BjdHgAAB4fUDBAgQiAWENwY3R4AAAeH1AwQIEIgFhDcGN0eAAAHh9QMECBCIBYQ3BjdHgAAB4fUDBAgQiAWENwY3R4AAAeH1AwQIEIgFhDcGN0eAAAHh9QMECBCIBYQ3BjdHgAAB4fUDBAgQiAWENwY3R4AAAeH1AwQIEIgFhDcGN0eAAAHh9QMECBCIBYQ3BjdHgAAB4fUDBAgQiAWENwY3R4AAAeH1AwQIEIgFhDcGN0eAAAHh9QMECBCIBYQ3BjdHgAAB4fUDBAgQiAWENwY3R4AAAeH1AwQIEIgFhDcGN0eAAAHh9QMECBCIBYQ3BjdHgAAB4fUDBAgQiAWENwY3R4AAAeH1AwQIEIgFhDcGN0eAAAHh9QMECBCIBYQ3BjdHgAAB4fUDBAgQiAWENwY3R4AAAeH1AwQIEIgFhDcGN0eAAAHh9QMECBCIBYQ3BjdHgAAB4fUDBAgQiAWENwY3R4AAAeH1AwQIEIgFhDcGN0eAAAHh9QMECBCIBYQ3BjdHgAAB4fUDBAgQiAWENwY3R4AAAeH1AwQIEIgFhDcGN0eAAAHh9QMECBCIBYQ3BjdHgAAB4fUDBAgQiAWENwY3R4AAAeH1AwQIEIgFhDcGN0eAAAHh9QMECBCIBYQ3BjdHgAAB4fUDBAgQiAWENwY3R4AAAeH1AwQIEIgFhDcGN0eAAAHh9QMECBCIBYQ3BjdHgAAB4fUDBAgQiAWENwY3R4AAAeH1AwQIEIgFhDcGN0eAAAHh9QMECBCIBYQ3BjdHgAAB4fUDBAgQiAWENwY3R4AAAeH1AwQIEIgFhDcGN0eAAAHh9QMECBCIBYQ3BjdHgAAB4fUDBAgQiAWENwY3R4AAAeH1AwQIEIgFhDcGN0eAAAHh9QMECBCIBYQ3BjdHgAAB4fUDBAgQiAWENwY3R4AAAeH1AwQIEIgFhDcGN0eAAAHh9QMECBCIBYQ3BjdHgAAB4fUDBAgQiAWENwY3R4AAAeH1AwQIEIgFhDcGN0eAAAHh9QMECBCIBYQ3BjdHgAAB4fUDBAgQiAWENwY3R4AAAeH1AwQIEIgFhDcGN0eAAAHh9QMECBCIBYQ3BjdHgAAB4fUDBAgQiAWENwY3R4AAAeH1AwQIEIgFhDcGN0eAAAHh9QMECBCIBYQ3BjdHgAAB4fUDBAgQiAWENwY3R4AAAeH1AwQIEIgFhDcGN0eAAAHh9QMECBCIBYQ3BjdHgAAB4fUDBAgQiAWENwY3R4AAAeH1AwQIEIgFhDcGN0eAAAHh9QMECBCIBYQ3BjdHgACBB3xPZ1sdBLCUAAAAAElFTkSuQmCC" style="display: block;">
-                    </div>
-                </div>
+                <div class="variables-grid">
+                  <div class="variable-section">
+                      <h2>X</h2>
+                      <div class="symbols-grid" id="x-variables">
+                          <div class="image-option" onclick="selectVariable('x', 0)">
+                              <img src="images/symbols-01.jpg" alt="Value 0">
+                          </div>
+                          <div class="image-option" onclick="selectVariable('x', 10)">
+                              <img src="images/symbols-02.jpg" alt="Value 10">
+                          </div>
+                          <div class="image-option" onclick="selectVariable('x', 11)">
+                              <img src="images/symbols-03.jpg" alt="Value 11">
+                          </div>
+                          <div class="image-option" onclick="selectVariable('x', 20)">
+                              <img src="images/symbols-04.jpg" alt="Value 20">
+                          </div>
+                          <div class="image-option" onclick="selectVariable('x', 21)">
+                              <img src="images/symbols-05.jpg" alt="Value 21">
+                          </div>
+                          <div class="image-option" onclick="selectVariable('x', 22)">
+                              <img src="images/symbols-06.jpg" alt="Value 22">
+                          </div>
+                      </div>
+                  </div>
+      
+                  <div class="variable-section">
+                      <h2>Y</h2>
+                      <div class="symbols-grid" id="y-variables">
+                          <!-- 复制相同的图像选项结构，更改onclick值为'y' -->
+                          <div class="image-option" onclick="selectVariable('y', 0)">
+                              <img src="images/symbols-01.jpg" alt="Value 0">
+                          </div>
+                          <div class="image-option" onclick="selectVariable('y', 10)">
+                              <img src="images/symbols-02.jpg" alt="Value 10">
+                          </div>
+                          <div class="image-option" onclick="selectVariable('y', 11)">
+                              <img src="images/symbols-03.jpg" alt="Value 11">
+                          </div>
+                          <div class="image-option" onclick="selectVariable('y', 20)">
+                              <img src="images/symbols-04.jpg" alt="Value 20">
+                          </div>
+                          <div class="image-option" onclick="selectVariable('y', 21)">
+                              <img src="images/symbols-05.jpg" alt="Value 21">
+                          </div>
+                          <div class="image-option" onclick="selectVariable('y', 22)">
+                              <img src="images/symbols-06.jpg" alt="Value 22">
+                          </div>
+                      </div>
+                  </div>
+      
+                  <div class="variable-section">
+                      <h2>Z</h2>
+                      <div class="symbols-grid" id="z-variables">
+                          <!-- 复制相同的图像选项结构，更改onclick值为'z' -->
+                          <div class="image-option" onclick="selectVariable('z', 0)">
+                              <img src="images/symbols-01.jpg" alt="Value 0">
+                          </div>
+                          <div class="image-option" onclick="selectVariable('z', 10)">
+                              <img src="images/symbols-02.jpg" alt="Value 10">
+                          </div>
+                          <div class="image-option" onclick="selectVariable('z', 11)">
+                              <img src="images/symbols-03.jpg" alt="Value 11">
+                          </div>
+                          <div class="image-option" onclick="selectVariable('z', 20)">
+                              <img src="images/symbols-04.jpg" alt="Value 20">
+                          </div>
+                          <div class="image-option" onclick="selectVariable('z', 21)">
+                              <img src="images/symbols-05.jpg" alt="Value 21">
+                          </div>
+                          <div class="image-option" onclick="selectVariable('z', 22)">
+                              <img src="images/symbols-06.jpg" alt="Value 22">
+                          </div>
+                      </div>
+                  </div>
+              </div>
+    
+              <div id="results">
+                  <h3>Results</h3>
+                  <div class="result-item" id="result1">1° Number: <strong>-</strong></div>
+                  <div class="result-item" id="result2">2° Number: <strong>-</strong></div>
+                  <div class="result-item" id="result3">3° Number: <strong>-</strong></div>
+              </div>
 
             </div> 
 
@@ -330,11 +375,73 @@
             <!-- -->All rights reserved.</p></div>
       </footer>
 
-      <exec-ui data-wxt-shadow-root="" data-react-shadow-host="holy-trick-exec-shadow-host" style="z-index: 1000000; overflow: visible; position: relative; width: 0px; height: 0px; display: block;"></exec-ui>
 
+      <script>
+        let xValue = null;
+        let yValue = null;
+        let zValue = null;
 
-    <script src="js/cdn.js"></script>
-    <script src="js/img.js"></script>
+        function selectVariable(variable, value) {
+            // 更新变量值
+            switch (variable) {
+                case 'x':
+                    xValue = value;
+                    break;
+                case 'y':
+                    yValue = value;
+                    break;
+                case 'z':
+                    zValue = value;
+                    break;
+            }
+
+            // 更新选中状态
+            updateImageSelection(variable, value);
+
+            // 如果所有值都已选择，计算结果
+            if (xValue !== null && yValue !== null && zValue !== null) {
+                calculateResults();
+            }
+        }
+
+        function updateImageSelection(variable, value) {
+            // 移除当前变量所有图片的选中状态
+            const container = document.getElementById(`${variable}-variables`);
+            const allOptions = container.getElementsByClassName('image-option');
+            Array.from(allOptions).forEach(option => {
+                option.classList.remove('selected');
+            });
+
+            // 为选中的图片添加选中状态
+            const selectedImage = Array.from(allOptions).find(option => {
+                return option.querySelector('img').alt === `Value ${value}`;
+            });
+            if (selectedImage) {
+                selectedImage.classList.add('selected');
+            }
+        }
+
+        function calculateResults() {
+            try {
+                // 计算结果
+                const result1 = (xValue * 2) + 11;
+                const result2 = ((zValue * 2) + yValue) - 5;
+                const result3 = Math.abs((zValue + yValue) - xValue);
+
+                // 更新显示
+                document.getElementById('result1').innerHTML = `1° Number: <strong>${result1}</strong>`;
+                document.getElementById('result2').innerHTML = `2° Number: <strong>${result2}</strong>`;
+                document.getElementById('result3').innerHTML = `3° Number: <strong>${result3}</strong>`;
+            } catch (error) {
+                console.error('Error calculating results:', error);
+                // 显示错误信息
+                document.getElementById('results').innerHTML = `
+                    <h3>Error</h3>
+                    <div class="result-item">An error occurred while calculating results. Please try again.</div>
+                `;
+            }
+        }
+    </script>
 
 </body>
 </html>
